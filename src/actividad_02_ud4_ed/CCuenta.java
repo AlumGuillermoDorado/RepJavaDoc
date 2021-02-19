@@ -67,8 +67,8 @@ public class CCuenta {
     }
      
 /**
- * @param cantidad
- * @throws Exception 
+ * @param cantidad a ingresar en el movimiento
+ * @throws Exception si se intenta ingresar una cantidad negativa
  */
     
     public void ingresar(double cantidad) throws Exception
