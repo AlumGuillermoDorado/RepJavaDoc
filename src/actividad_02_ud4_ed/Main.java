@@ -16,7 +16,7 @@ public class Main {
     static BufferedReader dato = new BufferedReader(new InputStreamReader(System.in));
     
 /**
-  * @param args 
+  * @param args Desarrollo y configuración del menú principal junto a sus opciones
  */
    
     public static void main(String[] args) {
@@ -66,6 +66,14 @@ public class Main {
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
     }
+    
+    /**
+     * 
+     * @param cuenta1 Cuenta en uso 
+     * @param cantidad Cuantía de la operación
+     * @param opcion Ingreso/Retirada de efectivo
+     */
+    
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad,int opcion){
         if(opcion==2){
             try 

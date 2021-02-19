@@ -18,7 +18,10 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
 
-  
+  /**
+   * Constructor sin argumentos
+   */
+    
     public CCuenta ()
     {
     }
@@ -49,7 +52,7 @@ public class CCuenta {
    
     /**
      *
-     * @return Devuelve el nombre del usuario
+     * @return <code>nombre</code>Devuelve el nombre del usuario
      */
     
     public String obtenerNombre()
@@ -58,7 +61,7 @@ public class CCuenta {
     }
     
 /**
- * @return Devuelve el saldo actual de la cuenta
+ * @return <code>saldo</code>Devuelve el saldo actual de la cuenta
  */
     
      public double estado ()
@@ -94,7 +97,7 @@ public class CCuenta {
     }
     
     /**
-     * @return Número cuenta bancaria
+     * @return <code>cuenta</code> Número cuenta bancaria
      */
     
     public String obtenerCuenta ()
@@ -119,7 +122,7 @@ public class CCuenta {
   }
 
   /**
-   * @return  Tipo de interés 
+   * @return <code>tipoInterés</code> Tipo de interés 
    */
  
   public double getTipoInterés() {
