@@ -119,7 +119,7 @@ public class CCuenta {
   }
 
   /**
-   * @return  Tipo de interés 
+   * @return  Tipo de interés que devuelve el bloque de código
    */
  
   public double getTipoInterés() {
